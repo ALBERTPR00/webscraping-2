@@ -6,8 +6,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import traceback
 from datetime import datetime
-
-
 def webscraping(url_scraping, categoria_scraping='todas'):
     options = Options()
     options.headless = False  # Cambia a True para no mostrar el navegador
